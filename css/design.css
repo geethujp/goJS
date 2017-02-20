@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  color: #3b3b3b;
+  font-family: 'ProximaNova-Regular';
+}
+
+a {
+  color: #e2292f;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:focus,
+a:hover {
+  color: #e2292f;
+  text-decoration: underline;
+}
+
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  src: url('../fonts/ProximaNova-Regular.eot') format('eot'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('ttf');
+}
+
+header {
+  color: #000;
+  font-size: 30px;
+  background: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid #e3e3e3;
+  text-align: center;
+  height: 60px;
+  margin-top: 15px;
+}
+
+header img {
+  float: left;
+}
+
+header h1 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 30px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+header a {
+  vertical-align: middle;
+  display: inline-block;
+  float: left;
+}
+
+.wrapper {
+  max-width: 1260px;
+  margin: 0 auto;
+  width: 95%;
+
+}
+
+footer {
+  font-size: 30px;
+  padding: 20px 0;
+  background: #f6f6f6;
+  color: #000;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #1e1e1e;
+  display: table;
+  text-align: center;
+}
+
+footer p{
+  color: #444;
+  font-size: 12px;
+}
