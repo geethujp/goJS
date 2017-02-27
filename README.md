@@ -10,3 +10,5 @@ It includes goJS features like
 * Show node description on click
 * Alternate coloring scheme
 * Show the collapsed version of the tree initially.
+
+https://geethujp.github.io/goJS/index.html
