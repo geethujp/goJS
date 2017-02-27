@@ -79,9 +79,12 @@ footer p {
 }
 
 .description-section {
-  margin: 40px 0;
   padding: 10px;
 }
 .description{
       padding-top: 10px;
+}
+.help-text{
+margin:0;
+padding: 10px 0;
 }
