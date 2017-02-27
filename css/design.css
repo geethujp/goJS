@@ -58,7 +58,6 @@ header a {
   max-width: 1260px;
   margin: 0 auto;
   width: 95%;
-
 }
 
 footer {
@@ -74,7 +73,15 @@ footer {
   text-align: center;
 }
 
-footer p{
+footer p {
   color: #444;
   font-size: 12px;
+}
+
+.description-section {
+  margin: 40px 0;
+  padding: 10px;
+}
+.description{
+      padding-top: 10px;
 }
