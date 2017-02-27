@@ -16,7 +16,10 @@ function init() {
             });
     // Dragging from the Shape will start drawing a new link.
     myDiagram.nodeTemplate =
-        $(go.Node, "Horizontal",
+
+        $(go.Node, "Horizontal",{
+  isTreeExpanded: false
+        },
             $(go.Panel, "Auto",
                 $(go.Shape, "RoundedRectangle", {
                     fill: "#cce6ff", // the default fill, if there is no data-binding
